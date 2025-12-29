@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "70144d06-8877-4e78-ba5e-b83edad21557")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 110.49 74.93)
+		(size 68.58 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1d06468-345e-47ae-af2f-07eacfe51854")
+		(property "Sheetname" "Linux_core"
+			(at 110.49 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 110.49 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1V8" input
+			(at 127 74.93 90)
+			(uuid "b039e4b2-bcdb-4f95-ac9a-07895588e19f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 134.62 74.93 90)
+			(uuid "aa3c9f25-26e2-48d3-94f5-1aa02f451164")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 110.49 102.87 180)
+			(uuid "b6e771a6-6e91-452e-8bbb-411cf5f97bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CMD" input
+			(at 110.49 100.33 180)
+			(uuid "e4af7d9c-118f-4d79-932a-a92e9220a8e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D0" input
+			(at 110.49 97.79 180)
+			(uuid "67632d76-aad2-4336-beb2-b50db89d326b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1" input
+			(at 110.49 95.25 180)
+			(uuid "c7a6ad1c-8dd9-41a2-8668-6c1d71ed2915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2" input
+			(at 110.49 92.71 180)
+			(uuid "b4889dae-3784-4d10-89f8-d3488e36f710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D3" input
+			(at 110.49 90.17 180)
+			(uuid "3d4c37b9-c978-49a4-a901-cac6cb6caffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 143.51 110.49 270)
+			(uuid "473ea5c5-1be9-4322-af62-164e4e824cdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART-TX" input
+			(at 179.07 88.9 0)
+			(uuid "d3f5e923-bb3e-4519-9ed0-c61947894a2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 179.07 91.44 0)
+			(uuid "a04a94da-d885-42e8-ac54-596e596834e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 153.67 74.93 90)
+			(uuid "617b378e-3de7-4062-b507-c23c67e7a798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 156.21 74.93 90)
+			(uuid "a14b7a95-956b-4424-9f4c-c4497d753395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_GRN" input
+			(at 140.97 74.93 90)
+			(uuid "15d8ed09-60b2-4566-ad77-f408cb70516a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_RED" input
+			(at 144.78 74.93 90)
+			(uuid "50cbeb40-79b5-4f68-aca4-8d8f4bd0515e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eMMC dumper"
+				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
