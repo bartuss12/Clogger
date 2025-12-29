@@ -2755,7 +2755,7 @@
 	)
 	(text "F1C100S\n"
 		(exclude_from_sim no)
-		(at 170.434 104.902 0)
+		(at 170.18 99.06 0)
 		(effects
 			(font
 				(size 4 4)
