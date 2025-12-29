@@ -3983,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(pin "1V8" input
+		(pin "1V2" input
 			(at 152.4 86.36 90)
 			(uuid "b039e4b2-bcdb-4f95-ac9a-07895588e19f")
 			(effects
