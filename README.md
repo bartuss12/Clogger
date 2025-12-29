@@ -19,3 +19,6 @@ The goal is to create a fully open, hand‑solderable tool that exposes an attac
 *Document the entire bring‑up process: boot flow, device tree, SD layout, and USB configuration
 
 *Create a simple, reliable tool for eMMC backup, cloning, and recovery
+
+12.29.2025 Work on first hardware version started
+<img width="607" height="396" alt="image" src="https://github.com/user-attachments/assets/8b7fc57f-2140-4e00-a539-06f3c2acc1f5" />
