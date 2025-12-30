@@ -2742,6 +2742,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LED STATUS\n-ERROR\n-READING BOOT0/BOOT1\n-READING USER AREA\n\n...perhaps in binary form\n+ silkscreen table\n"
+		(exclude_from_sim no)
+		(at 251.714 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af4df731-3551-489d-9896-82135b9b492a")
+	)
 	(text "Decoupling for card"
 		(exclude_from_sim no)
 		(at 70.104 139.446 0)
@@ -5361,7 +5371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
 			(at 45.72 102.87 0)
 			(effects
 				(font
@@ -5520,7 +5530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -6080,7 +6090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-AB_Molex_47590-0001"
 			(at 87.63 73.66 0)
 			(effects
 				(font
