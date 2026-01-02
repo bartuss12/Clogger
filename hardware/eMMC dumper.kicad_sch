@@ -3666,10 +3666,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "009ccf81-2e0b-4401-a77c-5eba4f004d09")
 		(property "Reference" "D1"
-			(at 221.2975 91.44 0)
+			(at 215.138 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3676,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 221.2975 93.98 0)
+			(at 215.138 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01384631-8ce8-45cc-9174-59f2dd23898d")
-		(property "Reference" "TP2"
+		(property "Reference" "CLK"
 			(at 153.67 126.9999 90)
 			(effects
 				(font
@@ -3797,7 +3796,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP2")
+					(reference "CLK")
 					(unit 1)
 				)
 			)
@@ -4100,10 +4099,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19323b5c-3fb5-4754-b3f4-87f54c9e534b")
-		(property "Reference" "TP1"
-			(at 158.75 124.4599 90)
+		(property "Reference" "CMD"
+			(at 158.496 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4152,7 @@
 		(instances
 			(project ""
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP1")
+					(reference "CMD")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4168,7 @@
 		(dnp no)
 		(uuid "22052145-26e8-4752-9bb8-98acf0028f7f")
 		(property "Reference" "D2"
-			(at 220.98 106.934 0)
+			(at 215.138 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4176,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 220.98 109.22 0)
+			(at 215.138 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,10 +5077,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49d02914-a442-42ca-8406-9d9699a8f0bb")
 		(property "Reference" "D3"
-			(at 221.2975 101.6 0)
+			(at 215.138 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5087,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 221.2975 104.14 0)
+			(at 215.138 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5351,7 @@
 		(dnp no)
 		(uuid "62c8149f-a143-4166-9c80-e852a8ea2c25")
 		(property "Reference" "D4"
-			(at 220.98 117.094 0)
+			(at 215.138 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5359,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 220.98 119.38 0)
+			(at 215.138 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d56504-153b-4e3e-8295-d93f6bd8af40")
-		(property "Reference" "TP5"
+		(property "Reference" "1V2"
 			(at 139.954 60.452 0)
 			(effects
 				(font
@@ -5546,7 +5543,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP5")
+					(reference "1V2")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "807852b4-e89e-4614-9abf-9dde338e623e")
-		(property "Reference" "TP3"
+		(property "Reference" "D0"
 			(at 148.59 129.5399 90)
 			(effects
 				(font
@@ -6123,7 +6120,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP3")
+					(reference "D0")
 					(unit 1)
 				)
 			)
@@ -6401,7 +6398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c5a927-046e-4f1f-954b-3acbb9bd89e1")
-		(property "Reference" "TP8"
+		(property "Reference" "GND1"
 			(at 200.66 72.39 90)
 			(effects
 				(font
@@ -6453,7 +6450,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP8")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7b06dc2-fac6-48c9-9910-09f49d7d0f0c")
-		(property "Reference" "TP6"
+		(property "Reference" "U_TX1"
 			(at 200.66 67.31 90)
 			(effects
 				(font
@@ -6661,7 +6658,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP6")
+					(reference "U_TX1")
 					(unit 1)
 				)
 			)
@@ -6741,7 +6738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccefc00d-5b35-4185-8d3e-9f6c278ef953")
-		(property "Reference" "TP4"
+		(property "Reference" "3V3"
 			(at 200.66 64.77 90)
 			(effects
 				(font
@@ -6793,7 +6790,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP4")
+					(reference "3V3")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7171,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da15d428-3aa5-4701-858f-c45dd6b2ba6e")
 		(property "Reference" "#PWR016"
 			(at 146.05 59.69 0)
@@ -7186,11 +7182,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 50.8 0)
+			(at 143.002 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7774,7 +7771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9b7d91f-72a7-4a53-a21b-3a25431823c9")
-		(property "Reference" "TP7"
+		(property "Reference" "U_RX1"
 			(at 200.66 69.85 90)
 			(effects
 				(font
@@ -7826,7 +7823,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "TP7")
+					(reference "U_RX1")
 					(unit 1)
 				)
 			)
