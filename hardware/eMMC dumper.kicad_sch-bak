@@ -3744,7 +3744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01384631-8ce8-45cc-9174-59f2dd23898d")
-		(property "Reference" "CLK1"
+		(property "Reference" "CLK"
 			(at 153.67 126.9999 90)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 		(instances
 			(project "eMMC dumper"
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "CLK1")
+					(reference "CLK")
 					(unit 1)
 				)
 			)
@@ -4100,7 +4100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19323b5c-3fb5-4754-b3f4-87f54c9e534b")
-		(property "Reference" "CMD1"
+		(property "Reference" "CMD"
 			(at 158.496 124.46 90)
 			(effects
 				(font
@@ -4152,7 +4152,7 @@
 		(instances
 			(project ""
 				(path "/70144d06-8877-4e78-ba5e-b83edad21557"
-					(reference "CMD1")
+					(reference "CMD")
 					(unit 1)
 				)
 			)
